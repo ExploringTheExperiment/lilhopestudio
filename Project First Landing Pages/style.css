@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background : #F9E8DE;
+    
+}
+/* banner pertama */
+section{
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+
+}
+.banner {
+    font-family: 'Roboto' sans-serif;
+     position: relative;
+     min-height: 50vh;
+     right: 10px 15px;
+     background-size: cover;
+     background-position: right;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.banner h2 { 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 60px;
+    color: #F49F58;
+}
+
+.banner span{
+    color: #444F8A;;
+}
+.banner p {
+    position: absolute;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 33px;
+
+}
+.textBx {
+    width: 50%;
+    height: 50vh;
+}
+.image img {
+    position: absolute;
+    width: 530px;
+    height: 500px;
+    left: 600px;
+    top: 10px;
+    border: 1px solid;
+
+}
+
+/* banner kedua */
+.about{
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+.textAbt {
+    position: absolute;
+    left: 50%;
+}
+
+.about h2 {
+    font-family: 'Poppins';
+    position: absolute;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 33px;
+}
+.about p {
+    font-family: 'Roboto' sans-serif;
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 33px;
+}
