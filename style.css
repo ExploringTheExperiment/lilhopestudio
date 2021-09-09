@@ -1,0 +1,150 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    height: 100vh;
+}
+.contact{
+    width: 100%;
+    height: 90%;
+    padding: 5px;
+    text-align: center;
+    background: #212E60;
+    color: white;
+}
+.contact .title{
+    height: 10%;
+}
+.contact .title h1{
+    font-weight: 300;
+    padding-top: 15px;
+    height: 100%; 
+    font-size: 48px;
+}
+.contact .link{
+    background: #212E60;
+    height: 73%;
+}
+
+.navigation {
+    display: flex;
+    padding: 10px 0;
+}
+  
+  .menu {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: left;
+    width: 100%;
+    padding:4vw 11vw;
+  }
+
+  .menu a {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    font-size: 35px;
+    font-weight: 300;
+    color: white;
+    transition: color 0.2s ease;
+    padding: 3px 0;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+ 
+  .menu li a{
+    display: flex;
+  }
+  .menu li a span:nth-child(1){
+    width: 10%;
+  }
+  .menu li a span:nth-child(2){
+    width: 50%;
+  }
+  .menu li a span:nth-child(3){
+    width: 40%;
+    text-align: right;
+  }
+  .menu a:hover {
+    color: #aaa;
+  }
+  .menu a:hover::after, .menu a:hover::before {
+    width: 100%;
+    left: 0;
+  }
+  .menu a::after, .menu a::before {
+    content: '';
+    position: absolute;
+    top: calc(100% + 5px);
+    width: 0;
+    right: 0;
+    height: 3px;
+  }
+  .menu a::before {
+    transition: width 0.4s cubic-bezier(0.51, 0.18, 0, 0.88) 0.1s;
+    background: #444F8A
+  }
+  .menu a::after {
+    transition: width 0.2s cubic-bezier(0.29, 0.18, 0.26, 0.83);
+    background: #F49F58;
+  }
+  .menu li{
+      display: flex;
+  }
+.contact .content{
+    background: #212E60;
+}
+.contact .content .go-up{
+    width: 10%;
+    margin: auto;
+}
+.contact .content .go-up:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* .contact .content img{
+
+} */
+.contact .content h3{
+    font-weight: 300;
+    font-size: 36px;
+}   
+
+footer{
+    width: 100%;
+    height: 10%;
+    padding:  0 15px;
+    text-align: center;
+    background: #212E60;
+    color: grey;
+    font-size: 24px;
+}
+footer p{
+  margin: auto 0;
+  height: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .contact{
+        width: 100%;
+        height: 70vh;
+    }
+    .contact .title{
+        height: 25%;
+    }
+    .menu a {
+        font-size: 13px;
+      }
+    .contact .content .go-up{
+        width: 100%;
+        margin: auto;
+    }
+    footer{
+        font-size: 14px;
+    }
+  }
