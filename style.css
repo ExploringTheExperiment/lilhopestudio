@@ -16,11 +16,12 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: var(--font-primary);
-  font-size: var(--font-size);
-  line-height: var(--line-height);
-  
+img {
+  position: fixed;
+  top: auto;
+  width: auto;
+  display: block;
+  transition: top 0.3s;
 }
 
 h1 {
