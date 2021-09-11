@@ -76,7 +76,7 @@
 .menu a:hover::before {
   width: 100%;
   left: 0;
-  height: 5%%;
+  height: 5%;
 }
 .menu a::after,
 .menu a::before {
