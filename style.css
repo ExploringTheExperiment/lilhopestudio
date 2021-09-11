@@ -57,6 +57,7 @@
 
 .menu li a {
   display: flex;
+  height: 80%;
 }
 .menu li a span:nth-child(1) {
   width: 10%;
@@ -75,12 +76,14 @@
 .menu a:hover::before {
   width: 100%;
   left: 0;
+  height: 5%%;
 }
 .menu a::after,
 .menu a::before {
   content: "";
   position: absolute;
   top: calc(100% + 5px);
+  height: 5%;
   width: 0;
   right: 0;
 }
@@ -156,6 +159,10 @@ footer p {
   }
   .menu a {
     font-size: 0.8em;
+  }
+  .menu li a {
+    display: flex;
+    height: 50%;
   }
   .menu li a span:nth-child(1) {
     width: 10%;
