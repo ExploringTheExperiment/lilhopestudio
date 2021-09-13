@@ -1,21 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    background : #F9E8DE;
+    box-sizing: border-box; 
     
 }
-/* banner pertama */
-section{
-    padding: 10px 10px 10px 10px;
-    margin: 10px 10px 10px 10px;
 
+/* HOME | Teks atas home & foto 1 */
+@media only screen and (max-width: 768px) {
+    /* For tablets: */
+    .banner {
+        width: 185%;
+        height: 120vh;
+        
+    }
+    .teksabt h2{
+       width: 0;
+       left: 695px;
+
+    }
+    .textAbt {
+        width: 70%;
+        margin-left: 300px;
+    }
+    .textAbt img{
+        width: 155%;
+    }
+    .about .form2 .textAbt p{
+        width: 155%;
+        height: 75vh;
+    }
+    
+  }
+.home{
+    background : #F9E8DE;
 }
 .banner {
     font-family: 'Roboto' ;
+    
 }
 .banner .form1{
     margin: auto;
@@ -49,6 +73,7 @@ section{
     max-width: 100%;
 }
 
+
 /* teks about */
 .teksabt h2 {
     font-family: 'Poppins';
@@ -59,12 +84,15 @@ section{
     text-align: center;
     right: 40%;
 }
-/* banner kedua */
+
+
+/* about yang di home */
+
 .about{
     padding: 10px 10px 10px 10px;
     margin: 10px 10px 10px 10px;
 }
-/* about */
+
 
 .about .form2{
     margin: auto;
@@ -107,3 +135,189 @@ section{
 .about span:nth-of-type(1){
     color: #444F8A;
     }
+
+
+/* cover about page*/
+
+.aboutUs {
+    font-family: 'Poppins';
+}
+
+.aboutUs .form3 {
+    margin: auto;
+    height: 630px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background : #F9E8DE;
+}
+
+.aboutUs .textAbt2 {
+    text-align: center;
+    font-size: 72px;
+    line-height: 40px;
+}
+
+.aboutUs .textAbt2 p {
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Roboto' ;
+}
+.aboutUs span:nth-of-type(2){
+    color: #F49F58;
+    }
+.aboutUs span:nth-of-type(1){
+    color: #444F8A;
+    }
+
+    
+/* judul */
+.origin .texthope {
+    width: auto;
+    font-size: 48px;
+    text-align: center;
+    left: 42%;
+    top: 1000px;
+}
+.texthope span:nth-of-type(2){
+    color: #F49F58;
+    }
+.texthope span:nth-of-type(1){
+    color: #444F8A;
+    }
+/* after cover 1 */
+
+.container {
+    background: white;
+    font-family: 'Poppins';
+}
+.origin{
+    
+    padding: 0;
+    margin: 0;
+}
+
+.origin .form4 {
+    
+    margin: auto;
+    display: flex;
+}
+
+.origin .textCrt{
+    left: 50%;
+    padding: 70px;
+    display: flex;
+}
+.origin p {
+    font-style: normal;
+    font-size: 28px;
+    line-height: 33px;
+    font-family: 'Roboto' ;
+}
+.origin img {
+    display: block;
+    max-width: 100%;
+}
+/* judul 2 */
+.goals .textgoals {
+    width: auto;
+    font-size: 48px;
+    text-align: center;
+    left: 42%;
+    top: 1000px; 
+}
+/* after cover 2 */
+.goals {
+    padding: 0;
+    margin: 0;
+}
+
+.goals .form5 {
+    right: 50%;
+    padding: 70px;
+    display: flex;
+}
+.goals .textgls {
+    left: 50%;
+    padding: 70px;
+    display: flex;
+}
+.goals p {
+    font-style: normal;
+    font-size: 28px;
+    line-height: 33px;
+    font-family: 'Roboto' ;
+}
+.goals img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+/* judul 3 */
+
+.vision .textvision {
+    width: auto;
+    font-size: 48px;
+    text-align: center;
+    left: 42%;
+    top: 1000px; 
+}
+/* after cover 3 */
+
+.vision {
+    padding: 0;
+    margin: 0;
+}
+.vision .form6 {
+    margin: auto;
+    display: flex;
+}
+.vision .textvsn {
+    left: 50%;
+    padding: 70px;
+    display: flex;
+}
+.vision p{
+    font-style: normal;
+    font-size: 28px;
+    line-height: 33px;
+    font-family: 'Roboto' ;
+}
+.vision img {
+    display: block;
+    max-width: 100%;
+}
+
+/* judul 4 */
+.mision .textmision {
+    width: auto;
+    font-size: 48px;
+    text-align: center;
+    left: 42%;
+    top: 1000px; 
+}
+
+/* after cover 4 */
+.mision {
+    padding: 0;
+    margin: 0;
+}
+.mision .form7 {
+    margin: auto;
+    display: flex;
+}
+.mision .textmsn {
+    left: 50%;
+    padding: 70px;
+    display: flex;
+}
+.mision p{
+    font-style: normal;
+    font-size: 28px;
+    line-height: 33px;
+    font-family: 'Roboto' ;
+}
+.mision img {
+    display: block;
+    max-width: 100%;
+}
