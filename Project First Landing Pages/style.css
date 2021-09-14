@@ -72,7 +72,7 @@ section {
 }
 
 /* teks about */
-.teksabt h2 {
+.judul-about h2 {
   font-family: "Poppins";
   font-style: normal;
   font-size: 40px;
@@ -86,22 +86,24 @@ section {
   display: flex;
 }
 
-.textAbt {
+.text-about {
   /* position: absolute; */
-  left: 50%;
-  padding: 15px;
+  width: 100%;
+  padding: 50px;
 }
-.textAbt img {
+.image-about {
+  width: 100%;
+  padding: 50px;
+}
+.image-about img {
   max-width: 100%;
 }
 
 .about p {
-  font-family: "Roboto";
-  margin-top: 30px;
-  font-style: normal;
-  font-weight: 300;
+  text-justify: inter-word;
   font-size: 28px;
   line-height: 33px;
+  margin-top: 18px;
 }
 .about a {
   width: 500px;
@@ -115,6 +117,10 @@ section {
 .text-about a h2 {
   margin-top: 5em;
 }
+.link-about {
+  left: 50%;
+  padding: 20px;
+}
 .about span:nth-of-type(2) {
   color: #f49f58;
 }
@@ -122,28 +128,54 @@ section {
   color: #444f8a;
 }
 
+/* HOME | Teks atas home & foto 1 */
+@media only screen and (max-width: 768px) {
+  .judul-about h2 {
+    font-size: 40px;
+    top: 600px;
+    text-align: center;
+  }
+  .about {
+    flex-direction: column;
+  }
+  .image-about {
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+  }
+  .about p {
+    margin-top: -25px;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+  }
+  .link-about {
+    left: 50%;
+    padding: 20px;
+    text-align: center;
+  }
+}
+
 /* cover about page*/
 
 .aboutUs {
   font-family: "Poppins";
-}
-
-.aboutUs .form3 {
-  margin: auto;
-  height: 630px;
+  width: 100%;
   display: flex;
+  height: 630px;
   justify-content: space-evenly;
   align-items: center;
+  padding: 20px;
   background: #f9e8de;
 }
 
-.aboutUs .textAbt2 {
+.text-aboutUs h1 {
   text-align: center;
   font-size: 72px;
-  line-height: 40px;
+  line-height: 70px;
 }
 
-.aboutUs .textAbt2 p {
+.text-aboutUs p {
   font-size: 28px;
   text-align: center;
   font-family: "Roboto";
@@ -154,92 +186,143 @@ section {
 .aboutUs span:nth-of-type(1) {
   color: #444f8a;
 }
+@media only screen and (max-width: 768px) {
+  .text-aboutUs h1 {
+    font-size: 60px;
+    line-height: 50px;
+  }
+  .text-aboutUs p {
+    font-size:25px;
+  }
+}
+/* container */
 
+.container {
+  background: white;
+  font-family: "Poppins";
+  padding: 20px;
+}
 /* judul */
-.origin .texthope {
+.text-littlehope {
+  padding: 20px;
   width: auto;
   font-size: 48px;
   text-align: center;
   left: 42%;
   top: 1000px;
 }
-.texthope span:nth-of-type(2) {
+.text-littlehope span:nth-of-type(2) {
   color: #f49f58;
 }
-.texthope span:nth-of-type(1) {
+.text-littlehope span:nth-of-type(1) {
   color: #444f8a;
 }
 /* after cover 1 */
-
-.container {
-  background: white;
-  font-family: "Poppins";
-}
 .origin {
-  padding: 0;
-  margin: 0;
-}
-
-.origin .form4 {
-  margin: auto;
   display: flex;
 }
 
-.origin .textCrt {
-  left: 50%;
-  padding: 70px;
-  display: flex;
+.text-origin{
+  width: 100%;
+  padding: 50px;
 }
 .origin p {
-  font-style: normal;
+  height: 100%;
   font-size: 28px;
   line-height: 33px;
   font-family: "Roboto";
+  margin-top: 50px;
 }
-.origin img {
-  display: block;
-  max-width: 100%;
+.origin .image-origin{
+  padding: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .text-littlehope {
+    padding: 10px;
+    font-size: 20px;
+  }
+  .origin {
+    flex-direction: column;
+    flex-flow: column-reverse;
+  }
+  .text-origin {
+    padding: 30px 0;
+    width: 100%;
+  }
+  .origin p {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+  }
+  .image-origin {
+    width: 100%;
+    text-align: center;
+  }
+  .image-origin img {
+    max-width: 100%;
+  }
 }
 /* judul 2 */
-.goals .textgoals {
+
+.judul-goals{
   width: auto;
-  font-size: 48px;
+  font-size: 40px;
   text-align: center;
   left: 42%;
   top: 1000px;
 }
 /* after cover 2 */
 .goals {
-  padding: 0;
-  margin: 0;
-}
-
-.goals .form5 {
-  right: 50%;
-  padding: 70px;
   display: flex;
 }
-.goals .textgls {
-  left: 50%;
-  padding: 70px;
-  display: flex;
+.text-goals {
+  width: 100%;
+  padding: 50px;
 }
 .goals p {
-  font-style: normal;
+  height: 100%;
   font-size: 28px;
   line-height: 33px;
   font-family: "Roboto";
+  margin-top: 50px;
 }
 .goals img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+  padding: 50px;
+}
+@media only screen and (max-width: 768px) {
+  .judul-goals{
+    font-size: 20px;
+  }
+  .goals {
+    flex-direction: column;
+    flex-flow: column-reverse;
+  }
+  .text-goals {
+    padding: 30px 0;
+    width: 100%;
+  }
+  .goals p {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+  }
+  .image-goals {
+    width: 100%;
+    padding: 0 ;
+    text-align: center;
+  }
+  .image-goals img {
+    max-width: 100%;
+  }
 }
 /* judul 3 */
 
-.vision .textvision {
+.judul-vision {
   width: auto;
-  font-size: 48px;
+  font-size: 40px;
   text-align: center;
   left: 42%;
   top: 1000px;
@@ -247,33 +330,55 @@ section {
 /* after cover 3 */
 
 .vision {
-  padding: 0;
-  margin: 0;
-}
-.vision .form6 {
-  margin: auto;
   display: flex;
 }
-.vision .textvsn {
-  left: 50%;
-  padding: 70px;
-  display: flex;
+.text-vision {
+  width: 100%;
+  padding: 50px;
+ 
 }
 .vision p {
-  font-style: normal;
+  height: 100%;
   font-size: 28px;
   line-height: 33px;
   font-family: "Roboto";
+  margin-top: 50px;
 }
 .vision img {
-  display: block;
-  max-width: 100%;
+  padding: 50px;
 }
 
+@media only screen and (max-width: 768px) {
+  .judul-vision {
+    font-size: 20px;
+  }
+  .vision {
+    flex-direction: column;
+    flex-flow: column-reverse;
+  }
+  .text-vision {
+    padding: 30px 0;
+    width: 100%;
+  }
+  .vision p {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+  }
+  .image-vision {
+    width: 100%;
+    padding: 0 ;
+    text-align: center;
+  }
+  .image-vision img {
+    max-width: 100%;
+  }
+}
 /* judul 4 */
-.mision .textmision {
+.judul-mision {
   width: auto;
-  font-size: 48px;
+  font-size: 40px;
   text-align: center;
   left: 42%;
   top: 1000px;
@@ -281,25 +386,47 @@ section {
 
 /* after cover 4 */
 .mision {
-  padding: 0;
-  margin: 0;
-}
-.mision .form7 {
-  margin: auto;
   display: flex;
 }
-.mision .textmsn {
-  left: 50%;
-  padding: 70px;
-  display: flex;
+.text-mision {
+  width: 100%;
+  padding: 50px;
 }
 .mision p {
-  font-style: normal;
+  height: 100%;
   font-size: 28px;
   line-height: 33px;
   font-family: "Roboto";
+  margin-top: 50px;
 }
 .mision img {
-  display: block;
-  max-width: 100%;
+  padding: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .judul-mision {
+    font-size: 20px;
+  }
+  .mision {
+    flex-direction: column;
+    flex-flow: column-reverse;
+  }
+  .text-mision {
+    padding: 30px 0;
+    width: 100%;
+  }
+  .mision p {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+  }
+  .image-mision {
+    width: 100%;
+    padding: 0 ;
+    text-align: center;
+  }
+  .image-mision img {
+    max-width: 100%;
+  }
 }
