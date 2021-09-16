@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="title"><h1><span class="oren">MEET OUR</span> <span class="biru">TEAM</span></h1></div>
+
+        <div id="slider" class="owl-carousel">
+
+            <div class="content-area">
+                <div class="content">
+                    <div class="img-area"><img src="img/1.jpg" alt=""></div>
+                    <h2>Adriano Qalbi</h2>
+                    <span>Photographer</span>
+                    <p>Seorang photographer yang sudah handal dalam bidangnya. Tidak diragukan lagi hasilnya.</p>
+                </div>
+            </div>
+
+            <div class="content-area">
+                <div class="content">
+                    <div class="img-area"><img src="img/2.jpg" alt=""></div>
+                    <h2>Luis Linguine</h2>
+                    <span>Art Director</span>
+                    <p>Seorang art director yang sudah handal dalam bidangnya. Tidak diragukan lagi hasilnya.</p>
+                </div>
+            </div>
+
+            <div class="content-area">
+                <div class="content">
+                    <div class="img-area"><img src="img/3.jpg" alt=""></div>
+                    <h2>Mocha Pardede</h2>
+                    <span>Designer</span>
+                    <p>Seorang designer yang sudah handal dalam bidangnya. Tidak diragukan lagi hasilnya.</p>
+                </div>
+            </div>
+
+            <div class="content-area">
+                <div class="content">
+                    <div class="img-area"><img src="img/4.jpg" alt=""></div>
+                    <h2>Vinnie Grace </h2>
+                    <span>Web Designer</span>
+                    <p>Seorang web designer yang sudah handal dalam bidangnya. Tidak diragukan lagi hasilnya.</p>
+                </div>
+            </div>
+
+            <div class="content-area">
+                <div class="content">
+                    <div class="img-area"><img src="img/5.jpg" alt=""></div>
+                    <h2>Ananta Guniea</h2>
+                    <span>Photographer</span>
+                    <p>Seorang photographer yang sudah handal dalam bidangnya. Tidak diragukan lagi hasilnya.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script>
+        $('#slider').owlCarousel({
+            loop:true,
+            margin:15,
+            nav:false,
+            autoplay: true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:2
+                },
+                1000:{
+                    items:3
+                }
+            }
+        })
+    </script>
+</body>
+</html>
