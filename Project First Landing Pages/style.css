@@ -55,6 +55,7 @@ section {
   .text-banner {
     padding: 30px 0;
     width: 100%;
+    text-align: center;
   }
   .banner h2 {
     font-size: 35px;
@@ -188,11 +189,11 @@ section {
 }
 @media only screen and (max-width: 768px) {
   .text-aboutUs h1 {
-    font-size: 60px;
+    font-size: 40px;
     line-height: 50px;
   }
   .text-aboutUs p {
-    font-size:25px;
+    font-size:14px;
   }
 }
 /* container */
@@ -279,7 +280,7 @@ section {
 }
 .text-goals {
   width: 100%;
-  padding: 50px;
+  padding: 150px;
 }
 .goals p {
   height: 100%;
@@ -313,9 +314,11 @@ section {
     width: 100%;
     padding: 0 ;
     text-align: center;
+    order: 1 ;
   }
   .image-goals img {
     max-width: 100%;
+    margin-top: 0px;
   }
 }
 /* judul 3 */
@@ -346,6 +349,7 @@ section {
 }
 .vision img {
   padding: 50px;
+  margin-top: 120px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -373,6 +377,7 @@ section {
   }
   .image-vision img {
     max-width: 100%;
+    margin-top: 0px;
   }
 }
 /* judul 4 */
@@ -390,7 +395,7 @@ section {
 }
 .text-mision {
   width: 100%;
-  padding: 50px;
+  padding: 150px;
 }
 .mision p {
   height: 100%;
@@ -401,6 +406,7 @@ section {
 }
 .mision img {
   padding: 50px;
+  margin-top: 240px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -410,6 +416,7 @@ section {
   .mision {
     flex-direction: column;
     flex-flow: column-reverse;
+    
   }
   .text-mision {
     padding: 30px 0;
@@ -425,8 +432,11 @@ section {
     width: 100%;
     padding: 0 ;
     text-align: center;
+    order: 1 ;
   }
   .image-mision img {
     max-width: 100%;
+    margin-top: 0px;
+
   }
 }
