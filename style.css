@@ -114,6 +114,7 @@
 .contact .content h3 {
   font-weight: 300;
   font-size: 36px;
+  color: white;
 }
 
 footer {
@@ -126,6 +127,9 @@ footer {
 footer p {
   margin: auto 0;
   padding: 25px;
+}
+.go-up {
+  text-decoration: none;
 }
 
 @media screen and (max-width: 800px) {

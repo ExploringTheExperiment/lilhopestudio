@@ -345,7 +345,14 @@ a.effect-underline:hover:after {
 .owl-dots {
   text-align: center;
 }
-
+.text {
+  text-align: justify;
+  text-justify: inter-word;
+}
+.text {
+  text-align: justify;
+  text-justify: inter-word;
+}
 @media screen and (max-width: 800px) {
   .banner-area {
     height: 50vh;
