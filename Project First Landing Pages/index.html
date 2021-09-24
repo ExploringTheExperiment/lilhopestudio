@@ -6,16 +6,51 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Personal Portofolio | Responsive Website Design</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="nav.css">
     </head>
     <body>
+        <section id="navbar">
+            <div>
+            <img src="image/logo1.svg" class="nav-logo">
+              <input id="page-nav-toggle" class="main-navigation-toggle" type="checkbox" />
+              <label for="page-nav-toggle">
+                
+                <svg class="icon--menu-toggle" viewBox="0 0 60 30">
+                  <g class="icon-group">
+                    <g class="icon--menu">
+                      <path d="M 6 0 L 54 0" />
+                      <path d="M 6 15 L 54 15" />
+                      <path d="M 6 30 L 54 30" />
+                    </g>
+                    <g class="icon--close">
+                      <path d="M 15 0 L 45 30" />
+                      <path d="M 15 30 L 45 0" />
+                    </g>
+                  </g>
+                </svg>
+              </label>
+              
+              <nav class="main-navigation">
+                <img src="image/logo-white.svg" class="nav-logo2">
+                <ul>
+                  <li><a class="effect-underline" href="#0">Home</a></li>
+                  <li><a class="effect-underline" href="about.html">About</a></li>
+                  <li><a class="effect-underline" href="#0">Services</a></li>
+                  <li><a class="effect-underline" href="#0">Work</a></li>
+                  <li><a class="effect-underline" href="#0">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+          </section>
+
         <div class="home">
             <section class="banner">
-                    <div class="text-banner">  
-                        <h2>  Making <span> Art for Everything</span> You Need.</h2>
-                        <p>Little Hope is a <b> Full-Sevice digital agency</b> that
-                            helps brand in digital transformation through 
-                            strategy, product development, and creative 
-                            communication.</p>
+                    <div class="text-banner"> 
+                        <h2> Making  <span> Art for Everything</span> You Need.</h2>
+                        <p>
+                            Little Hope is a <b>creative agency that help</b>
+                            indonesia small business.</p>
+
                     </div>
                     <div class="image-banner">
                         <img src="image/placeholderhome.svg" alt="">
@@ -28,7 +63,7 @@
 
             <section class="about">
                 <div class="image-about">
-                    <img src="image/image about.svg"">
+                    <img src="image/image about.svg">
                 </div>
                 <div class="text-about">
                     <p>Little Hope bermula dari mimpi serta <br>
