@@ -71,7 +71,8 @@ a.effect-underline:hover:after {
 
 .nav-logo {
   position: fixed;
-  top: auto;
+  top: 8px;
+  left: 8px;
   width: auto;
   display: block;
   transition: top 0.3s;
