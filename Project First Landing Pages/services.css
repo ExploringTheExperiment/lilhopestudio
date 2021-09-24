@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: poppins;
+}
+.heading {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #fff;
+}
+.heading h2 {
+  font-weight: 600;
+  font-size: 30px;
+  padding: 20px;
+}
+.services {
+  width: 100%;
+  background: #212e60;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.services .content .servicesBx {
+  padding: 40px 20px;
+  color: #fff;
+  max-width: 340px;
+  margin: 20px;
+  text-align: center;
+  transition: 0.5s;
+  width: 100%;
+}
+.services .content .servicesBx:hover {
+  background: #f49f58;
+}
+.services .content .servicesBx img {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .servicesBx {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .servicesBx {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .services {
+    height: auto;
+  }
+}
