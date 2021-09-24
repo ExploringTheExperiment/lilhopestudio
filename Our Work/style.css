@@ -365,7 +365,7 @@ a.effect-underline:hover:after {
     font-size: 33px;
   }
   .container {
-    height: 50vh;
+    height: 100%;
   }
 }
 

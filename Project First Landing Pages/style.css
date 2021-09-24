@@ -14,6 +14,8 @@
 .banner {
   font-family: "Roboto";
   width: 100%;
+  height: 100vh;
+  padding: 50px;
   display: flex;
 }
 .banner h2 {
@@ -34,13 +36,16 @@
   text-justify: inter-word;
 }
 .text-banner {
-  padding: 50px 50px 50px 50px;
-  margin-top: 10%;
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .image-banner {
   width: 50%;
-  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .image-banner img {
   max-width: 100%;
@@ -50,6 +55,7 @@
   .banner {
     flex-direction: column;
     flex-flow: column-reverse;
+    height: 65vh;
   }
   .text-banner {
     padding: 30px 0;
@@ -57,7 +63,7 @@
     text-align: center;
   }
   .banner h2 {
-    font-size: 35px;
+    font-size: 25px;
     line-height: 35px;
   }
   .banner p {
@@ -67,7 +73,7 @@
   }
   .image-banner {
     width: 100%;
-    padding: 0 20px;
+    transform: scale(1.5);
   }
 }
 
@@ -90,17 +96,22 @@
   /* position: absolute; */
   width: 100%;
   padding: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 .image-about {
   width: 100%;
   padding: 50px;
+  display: flex;
+  justify-content: center;
 }
 .image-about img {
   max-width: 100%;
 }
 
 .about p {
-  text-justify: inter-word;
+  text-align: justify;
   font-size: 28px;
   line-height: 33px;
   margin-top: 18px;
@@ -116,10 +127,6 @@
 }
 .text-about a h2 {
   margin-top: 5em;
-}
-.link-about {
-  left: 50%;
-  padding: 20px;
 }
 .about span:nth-of-type(2) {
   color: #f49f58;
@@ -145,9 +152,7 @@
   }
   .about p {
     margin-top: -25px;
-    font-size: 20px;
-    line-height: 35px;
-    text-align: center;
+    font-size: 15px;
   }
   .link-about {
     left: 50%;
