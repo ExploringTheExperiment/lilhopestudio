@@ -56,6 +56,7 @@
   .banner {
     flex-direction: column;
     flex-flow: column-reverse;
+    height: 100%;
   }
   .text-banner {
     padding: 30px 0;
@@ -250,11 +251,18 @@
 /* after cover 1 */
 .origin {
   display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
 .text-origin {
-  width: 100%;
+  width: 50%;
   padding: 50px;
+}
+.image-origin {
+  width: 50%;
+  text-align: center;
 }
 .origin p {
   height: 100%;
@@ -273,6 +281,7 @@
     font-size: 20px;
   }
   .origin {
+    height: 100%;
     flex-direction: column;
     flex-flow: column-reverse;
   }
@@ -306,9 +315,12 @@
 /* after cover 2 */
 .goals {
   display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 .text-goals {
-  width: 100%;
+  width: 50%;
   padding: 150px;
 }
 .goals p {
@@ -317,6 +329,11 @@
   line-height: 33px;
   font-family: "Roboto";
   margin-top: 50px;
+}
+.image-goals {
+  display: flex;
+  justify-content: center;
+  width: 50%;
 }
 .goals img {
   padding: 50px;
@@ -328,6 +345,7 @@
   .goals {
     flex-direction: column;
     flex-flow: column-reverse;
+    height: 100%;
   }
   .text-goals {
     padding: 30px 0;
@@ -365,7 +383,7 @@
   display: flex;
 }
 .text-vision {
-  width: 100%;
+  width: 50%;
   padding: 50px;
 }
 .vision p {
@@ -378,6 +396,11 @@
 .vision img {
   padding: 50px;
   margin-top: 120px;
+}
+.image-vision {
+  width: 50%;
+  padding: 0;
+  text-align: center;
 }
 
 @media only screen and (max-width: 768px) {
@@ -420,10 +443,17 @@
 /* after cover 4 */
 .mision {
   display: flex;
+  height: 100vh;
 }
 .text-mision {
-  width: 100%;
-  padding: 150px;
+  width: 50%;
+  padding: 10px 50px;
+}
+.image-mision {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .mision p {
   height: 100%;
@@ -434,7 +464,6 @@
 }
 .mision img {
   padding: 50px;
-  margin-top: 240px;
 }
 
 @media only screen and (max-width: 768px) {
