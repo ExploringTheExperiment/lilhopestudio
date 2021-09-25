@@ -466,20 +466,20 @@ a.effect-underline:hover:after {
 .menu li {
   display: flex;
 }
-.contact .content {
+.contact .content-footer {
   background: #212e60;
 }
-.contact .content .go-up {
+.contact .content-footer .go-up {
   width: 15%;
   padding: 25px 0px;
   margin: auto;
 }
-.contact .content .go-up:hover {
+.contact .content-footer .go-up:hover {
   cursor: pointer;
   color: wheat;
 }
 
-.contact .content h3 {
+.contact .content-footer h3 {
   font-weight: 300;
   font-size: 36px;
   color: white;
@@ -546,11 +546,11 @@ footer p {
     width: 55%;
     text-align: right;
   }
-  .contact .content .go-up {
+  .contact .content-footer .go-up {
     width: 50%;
     margin: auto;
   }
-  .contact .content .go-up h3 {
+  .contact .content-footer .go-up h3 {
     font-size: 1em;
   }
   footer {
