@@ -54,22 +54,21 @@ a.effect-underline:hover:after {
 
 .nav-logo {
   position: fixed;
-  left: -15px;
+  top: 8px;
+  left: 8px;
+  width: auto;
   display: block;
   transition: top 0.3s;
-  z-index: 1;
-  transform: scale(0.7);
 }
 
 .nav-logo2 {
   color: white;
   position: fixed;
   top: 8px;
-  left: -15px;
+  left: 8px;
+  width: auto;
   display: block;
   transition: top 0.3s;
-  z-index: 1;
-  transform: scale(0.7);
 }
 
 .main-navigation-toggle {
