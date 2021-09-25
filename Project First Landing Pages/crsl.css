@@ -2,7 +2,7 @@
   position: relative;
   height: 400px;
   top: 50%;
-  transform: translateY(-10%);
+  transform: translateY(-50%);
   overflow: hidden;
 }
 #carousel div {
@@ -75,37 +75,4 @@
   left: 50%;
   transform: translateX(-50%);
   bottom: 10px;
-}
-@media only screen and (max-width: 768px) {
-  #carousel {
-    height: 400px;
-    top: 50%;
-    transform: translateY(-10%);
-    overflow: hidden;
-  }
-  #carousel div.hideLeft img {
-    width: 50px;
-  }
-  #carousel div.prevLeftSecond img {
-    width: 100px;
-  }
-  #carousel div.prev img {
-    width: 150px;
-  }
-  #carousel div.selected img {
-    width: 200px;
-  }
-  #carousel div.next img {
-    width: 150px;
-  }
-  #carousel div img {
-    width: 200px;
-    transition: width 1s;
-  }
-  #carousel div.nextRightSecond img {
-    width: 100px;
-  }
-  #carousel div.hideRight img {
-    width: 50px;
-  }
 }
