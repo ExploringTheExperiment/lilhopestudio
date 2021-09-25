@@ -48,7 +48,7 @@ body {
   flex-direction: column;
   justify-content: center;
 }
-.title h1 {
+.title-maiko h1 {
   text-align: center;
   font-family: poppins;
   font-style: normal;
@@ -93,7 +93,7 @@ body {
   .banner-area h2 {
     font-size: 48px;
   }
-  .title h1 {
+  .title-maiko h1 {
     font-size: 33px;
   }
   .container {
