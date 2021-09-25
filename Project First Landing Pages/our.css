@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:900&display=swap");
 *:root {
   /* Background Color */
   --main-background: #f9e8de;
@@ -70,23 +71,21 @@ a.effect-underline:hover:after {
 
 .nav-logo {
   position: fixed;
+  top: 8px;
+  left: 8px;
   width: auto;
   display: block;
   transition: top 0.3s;
-  z-index: 1;
-  transform: scale(0.8);
-  margin-left: -10px;
 }
 
 .nav-logo2 {
   color: white;
   position: fixed;
-  margin-left: -10px;
-  top: 0px;
+  top: 8px;
+  left: 8px;
   width: auto;
   display: block;
   transition: top 0.3s;
-  transform: scale(0.8);
 }
 
 .main-navigation-toggle {
@@ -154,7 +153,7 @@ a.effect-underline:hover:after {
 }
 .main-navigation ul {
   font-size: 12vmin;
-  /* font-family: var(--font-heading); */
+  font-family: var(--font-heading);
   width: 100%;
 }
 .main-navigation li {
@@ -311,6 +310,7 @@ a.effect-underline:hover:after {
   font-size: 48px;
   font-weight: 700;
   text-transform: uppercase;
+  border-bottom: solid 2px;
 }
 
 .oren {

@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:900&display=swap");
 #navbar {
   --duration: 1s;
   --nav-duration: calc(var(--duration) / 4);
