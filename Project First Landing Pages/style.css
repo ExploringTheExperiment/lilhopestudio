@@ -450,7 +450,8 @@
   padding: 10px 50px;
 }
 .image-mision {
-  width: 50%;
+  width: 750px;
+  height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -485,6 +486,8 @@
     text-align: center;
   }
   .image-mision {
+    top: 90px;
+    position: relative;
     width: 100%;
     padding: 0;
     text-align: center;
