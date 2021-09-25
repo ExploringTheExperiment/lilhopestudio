@@ -11,7 +11,7 @@
 .home {
   background: #f9e8de;
 }
-
+/* Banner */
 .banner {
   font-family: "Roboto";
   width: 100%;
@@ -51,7 +51,9 @@
 .image-banner img {
   max-width: 100%;
 }
+/* End Banner */
 /* HOME | Teks atas home & foto 1 */
+/* Media Query Banner */
 @media only screen and (max-width: 768px) {
   .banner {
     flex-direction: column;
@@ -78,7 +80,8 @@
     transform: scale(1);
   }
 }
-
+/* End Media Query */
+/* Home */
 /* teks about */
 .judul-about h2 {
   font-family: "Poppins";
@@ -136,7 +139,7 @@
 .about span:nth-of-type(1) {
   color: #444f8a;
 }
-
+/* End Home */
 /* HOME | Teks atas home & foto 1 */
 @media only screen and (max-width: 768px) {
   .judul-about h2 {
@@ -162,8 +165,9 @@
     text-align: center;
   }
 }
-
+/* End Query Home */
 /* cover about page*/
+/* About Us */
 .wrapper {
   width: 90%;
   margin: 0 auto;
@@ -189,44 +193,7 @@
 .banner-area h2 span {
   color: #444f8a;
 }
-/* .aboutUs {
-  font-family: "Poppins";
-  width: 100%;
-  display: flex;
-  height: 630px;
-  justify-content: space-evenly;
-  align-items: center;
-  padding: 20px;
-  background: #f9e8de;
-}
 
-.text-aboutUs h1 {
-  text-align: center;
-  font-size: 72px;
-  line-height: 70px;
-}
-
-.text-aboutUs p {
-  font-size: 28px;
-  text-align: center;
-  font-family: "Roboto";
-}
-.aboutUs span:nth-of-type(2) {
-  color: #f49f58;
-}
-.aboutUs span:nth-of-type(1) {
-  color: #444f8a;
-}
-@media only screen and (max-width: 768px) {
-  .text-aboutUs h1 {
-    font-size: 40px;
-    line-height: 50px;
-  }
-  .text-aboutUs p {
-    font-size:14px;
-  }
-} */
-/* container */
 
 .container {
   background: white;
@@ -498,3 +465,4 @@
     margin-top: 0px;
   }
 }
+/* End About Us */

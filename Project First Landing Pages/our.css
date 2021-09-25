@@ -16,7 +16,7 @@
 body {
   background-color: var(--main-background);
 }
-
+/* Banner */
 .wrapper {
   width: 90%;
   margin: 0 auto;
@@ -57,8 +57,8 @@ body {
   text-transform: uppercase;
   border-bottom: solid 2px;
 }
-
-
+/* End Banner */
+/* Swiper */
 #slider {
   margin: 30px 10px 30px 0px;
   z-index: -1;
@@ -107,4 +107,4 @@ body {
 .owl-dot.active {
   background-color: #212e60 !important;
 }
-
+/* End Swiper */
