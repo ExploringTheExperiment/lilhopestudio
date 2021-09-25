@@ -1,5 +1,6 @@
 .section-carousel {
   height: 100vh;
+  background-color: #f9e8de;
 }
 #carousel {
   position: relative;
