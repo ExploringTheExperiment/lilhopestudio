@@ -55,7 +55,6 @@
   .banner {
     flex-direction: column;
     flex-flow: column-reverse;
-    height: 100%;
   }
   .text-banner {
     padding: 30px 0;
