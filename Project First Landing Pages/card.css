@@ -112,6 +112,9 @@
   .container .card {
     height: 100%;
   }
+  .imgBx {
+    height: 400px;
+  }
   .imgBx img {
     width: 100%;
     height: 100%;
