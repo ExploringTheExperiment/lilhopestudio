@@ -42,8 +42,8 @@
   width: 100%;
   padding: 4vw 11vw;
 }
-
-.menu a {
+a
+{
   text-decoration: none;
   position: relative;
   display: inline-block;
