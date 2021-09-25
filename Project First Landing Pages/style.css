@@ -55,7 +55,7 @@
   .banner {
     flex-direction: column;
     flex-flow: column-reverse;
-    height: 65vh;
+    height: 100%;
   }
   .text-banner {
     padding: 30px 0;
@@ -73,6 +73,7 @@
   }
   .image-banner {
     width: 100%;
+    margin-top: 40px;
     transform: scale(1.5);
   }
 }
@@ -229,6 +230,7 @@
 .container {
   background: white;
   font-family: "Poppins";
+  height: 100%;
 }
 /* judul */
 .text-littlehope {
