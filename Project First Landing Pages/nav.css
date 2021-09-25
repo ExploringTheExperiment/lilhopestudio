@@ -56,20 +56,19 @@ a.effect-underline:hover:after {
 
 .nav-logo {
   position: fixed;
-  width: auto;
+  width: 80px;
   display: block;
   transition: top 0.3s;
   z-index: 1;
   transform: scale(0.8);
-  margin-left: -10px;
+  margin-left: 12px;
 }
-
 .nav-logo2 {
   color: white;
+  width: 80px;
+  margin-left: 12px;
   position: fixed;
-  margin-left: -10px;
   top: 0px;
-  width: auto;
   display: block;
   transition: top 0.3s;
   transform: scale(0.8);
@@ -92,12 +91,13 @@ a.effect-underline:hover:after {
 }
 
 .icon--menu-toggle {
-  --size: calc(1rem + 4vmin);
+  margin-top: -12px;
+  margin-right: 3px;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: var(--size);
-  height: var(--size);
+  width: 16px;
+  height: 16px;
   stroke-width: 6;
 }
 
