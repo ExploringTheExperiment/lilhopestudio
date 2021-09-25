@@ -298,7 +298,7 @@ a.effect-underline:hover:after {
 }
 .container {
   max-width: 1000px;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -310,7 +310,7 @@ a.effect-underline:hover:after {
   font-size: 48px;
   font-weight: 700;
   text-transform: uppercase;
-  border-bottom: solid 0.1em;
+  border-bottom: solid 2px;
 }
 
 .oren {
@@ -324,11 +324,10 @@ a.effect-underline:hover:after {
 #slider {
   margin: 30px 10px 30px 0px;
   z-index: -1;
-  border-bottom: solid 0.3em;
 }
 
 .img-area {
-  width: 100%;
+  width: 95%;
   height: 100%;
   position: relative;
   background-size: cover;
@@ -339,21 +338,16 @@ a.effect-underline:hover:after {
   text-align: center;
 }
 
-.owl-item {
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-}
-
 .owl-dots {
   text-align: center;
 }
 .text {
+  font-size: 1.75em;
+  border-top: solid 2px;
   text-align: justify;
   text-justify: inter-word;
 }
-.text {
-  text-align: justify;
-  text-justify: inter-word;
-}
+
 @media screen and (max-width: 800px) {
   .banner-area {
     height: 50vh;
@@ -367,24 +361,19 @@ a.effect-underline:hover:after {
   .container {
     height: 70vh;
   }
+  .text
+  {
+    font-size: 2em;
+  }
 }
 
-/* .owl-dot {
-  display: inline-block;
-  height: 10px !important;
-  width: 10px !important;
-  background-color: #465386 !important;
-  opacity: 0.8;
-  margin: 0 10px;
-  border-radius: 50%;
-} */
 
 .owl-dot.active {
   background-color: #212e60 !important;
 }
 
 .contact-footer {
-  height: 100vh;
+  height: 100%;
 }
 .contact {
   width: 100%;
@@ -398,7 +387,7 @@ a.effect-underline:hover:after {
   flex-direction: column;
 }
 
-.contact .title-footer h1 {
+.contact .title h1 {
   font-weight: 300;
   padding-top: 15px;
   font-size: 3em;
@@ -495,9 +484,7 @@ a.effect-underline:hover:after {
   font-size: 36px;
   color: white;
 }
-.go-up a {
-  text-decoration: none;
-}
+
 footer {
   width: 100%;
   text-align: center;
@@ -505,10 +492,12 @@ footer {
   color: grey;
   font-size: 1em;
 }
-
 footer p {
   margin: auto 0;
   padding: 25px;
+}
+.go-up {
+  text-decoration: none;
 }
 
 @media screen and (max-width: 800px) {
@@ -518,7 +507,7 @@ footer p {
   .contact-footer {
     height: 100%;
   }
-  .contact .title-footer h1 {
+  .contact .title h1 {
     font-weight: 300;
     padding-top: 15px;
     font-size: 2em;
